@@ -13,6 +13,10 @@
 		5B1223D723715CDD00D06B44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1223D623715CDD00D06B44 /* Assets.xcassets */; };
 		5B1223DA23715CDD00D06B44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1223D823715CDD00D06B44 /* LaunchScreen.storyboard */; };
 		5B1223DD23715CDD00D06B44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1223DC23715CDD00D06B44 /* main.m */; };
+		5B1224002371AB6500D06B44 /* TopMoviesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1223FE2371AB6500D06B44 /* TopMoviesCollectionViewCell.m */; };
+		5B1224012371AB6500D06B44 /* TopMoviesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1223FF2371AB6500D06B44 /* TopMoviesCollectionViewCell.xib */; };
+		5B1224052371ACA000D06B44 /* ShowingMoviesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1224032371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.m */; };
+		5B1224062371ACA000D06B44 /* ShowingMoviesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1224042371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		5B1223D923715CDD00D06B44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B1223DB23715CDD00D06B44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B1223DC23715CDD00D06B44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B1223FD2371AB6500D06B44 /* TopMoviesCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopMoviesCollectionViewCell.h; sourceTree = "<group>"; };
+		5B1223FE2371AB6500D06B44 /* TopMoviesCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopMoviesCollectionViewCell.m; sourceTree = "<group>"; };
+		5B1223FF2371AB6500D06B44 /* TopMoviesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopMoviesCollectionViewCell.xib; sourceTree = "<group>"; };
+		5B1224022371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowingMoviesCollectionViewCell.h; sourceTree = "<group>"; };
+		5B1224032371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowingMoviesCollectionViewCell.m; sourceTree = "<group>"; };
+		5B1224042371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowingMoviesCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 		5B1223CC23715CDB00D06B44 /* Collection View Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				5B1223E32371759200D06B44 /* Cell */,
 				5B1223CD23715CDB00D06B44 /* AppDelegate.h */,
 				5B1223CE23715CDB00D06B44 /* AppDelegate.m */,
 				5B1223D023715CDB00D06B44 /* ViewController.h */,
@@ -69,6 +80,19 @@
 				5B1223DC23715CDD00D06B44 /* main.m */,
 			);
 			path = "Collection View Challenge";
+			sourceTree = "<group>";
+		};
+		5B1223E32371759200D06B44 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5B1223FD2371AB6500D06B44 /* TopMoviesCollectionViewCell.h */,
+				5B1223FE2371AB6500D06B44 /* TopMoviesCollectionViewCell.m */,
+				5B1223FF2371AB6500D06B44 /* TopMoviesCollectionViewCell.xib */,
+				5B1224022371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.h */,
+				5B1224032371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.m */,
+				5B1224042371AC9F00D06B44 /* ShowingMoviesCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1223DA23715CDD00D06B44 /* LaunchScreen.storyboard in Resources */,
+				5B1224012371AB6500D06B44 /* TopMoviesCollectionViewCell.xib in Resources */,
 				5B1223D723715CDD00D06B44 /* Assets.xcassets in Resources */,
 				5B1223D523715CDB00D06B44 /* Main.storyboard in Resources */,
+				5B1224062371ACA000D06B44 /* ShowingMoviesCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B1223D223715CDB00D06B44 /* ViewController.m in Sources */,
+				5B1224002371AB6500D06B44 /* TopMoviesCollectionViewCell.m in Sources */,
 				5B1223DD23715CDD00D06B44 /* main.m in Sources */,
 				5B1223CF23715CDB00D06B44 /* AppDelegate.m in Sources */,
+				5B1224052371ACA000D06B44 /* ShowingMoviesCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
