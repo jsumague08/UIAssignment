@@ -73,7 +73,7 @@
                                                         </connections>
                                                     </collectionView>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalHuggingPriority="1000" verticalCompressionResistancePriority="250" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="h9O-U3-riD">
-                                                        <rect key="frame" x="8" y="254" width="359" height="371"/>
+                                                        <rect key="frame" x="0.0" y="254" width="375" height="371"/>
                                                         <color key="backgroundColor" red="0.8901960784313725" green="0.89803921568627454" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="351" id="jze-DH-qfD"/>
@@ -86,7 +86,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="9aI-sg-8JI">
-                                                                <rect key="frame" x="79.5" y="0.0" width="200" height="200"/>
+                                                                <rect key="frame" x="87.5" y="0.0" width="200" height="200"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -94,7 +94,7 @@
                                                                 </view>
                                                             </collectionViewCell>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xXE-Aj-Qqz">
-                                                                <rect key="frame" x="79.5" y="200" width="200" height="200"/>
+                                                                <rect key="frame" x="87.5" y="200" width="200" height="200"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -102,7 +102,7 @@
                                                                 </view>
                                                             </collectionViewCell>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="weP-qG-xUI">
-                                                                <rect key="frame" x="79.5" y="400" width="200" height="200"/>
+                                                                <rect key="frame" x="87.5" y="400" width="200" height="200"/>
                                                                 <autoresizingMask key="autoresizingMask"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -122,11 +122,11 @@
                                                     <constraint firstItem="M9t-qM-BOi" firstAttribute="top" secondItem="cBK-FM-urb" secondAttribute="top" constant="8" id="987-FN-FIN"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M9t-qM-BOi" secondAttribute="trailing" constant="192" id="ArV-7P-ddp"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="i2y-YN-5S7" secondAttribute="trailing" constant="232" id="MrN-e7-kY1"/>
-                                                    <constraint firstItem="h9O-U3-riD" firstAttribute="leading" secondItem="cBK-FM-urb" secondAttribute="leading" constant="8" id="ODf-Sa-NZR"/>
+                                                    <constraint firstItem="h9O-U3-riD" firstAttribute="leading" secondItem="cBK-FM-urb" secondAttribute="leading" id="ODf-Sa-NZR"/>
                                                     <constraint firstAttribute="bottom" secondItem="h9O-U3-riD" secondAttribute="bottom" id="Oz8-yh-Ak0"/>
                                                     <constraint firstAttribute="trailing" secondItem="gbk-JW-ojS" secondAttribute="trailing" id="Ptm-8u-pEh"/>
                                                     <constraint firstItem="h9O-U3-riD" firstAttribute="top" secondItem="i2y-YN-5S7" secondAttribute="bottom" constant="8" id="SGu-dU-CFe"/>
-                                                    <constraint firstAttribute="trailing" secondItem="h9O-U3-riD" secondAttribute="trailing" constant="8" id="Ust-ZP-qYs"/>
+                                                    <constraint firstAttribute="trailing" secondItem="h9O-U3-riD" secondAttribute="trailing" id="Ust-ZP-qYs"/>
                                                     <constraint firstItem="i2y-YN-5S7" firstAttribute="leading" secondItem="cBK-FM-urb" secondAttribute="leading" constant="8" id="Vby-wk-vUR"/>
                                                     <constraint firstItem="gbk-JW-ojS" firstAttribute="leading" secondItem="cBK-FM-urb" secondAttribute="leading" id="jcp-xE-69d"/>
                                                     <constraint firstItem="M9t-qM-BOi" firstAttribute="leading" secondItem="cBK-FM-urb" secondAttribute="leading" constant="8" id="lVP-eK-dHh"/>
@@ -158,6 +158,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fY-HQ-Iet">
                                         <rect key="frame" x="117.5" y="14" width="140" height="30"/>
                                         <color key="backgroundColor" red="0.89019607840000003" green="0.63921568630000003" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="ROB-p9-MiZ"/>
+                                        </constraints>
                                         <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-1" maxY="0.0"/>
                                         <state key="normal" title="Buy Ticket">
                                             <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -167,10 +170,9 @@
                                 <color key="backgroundColor" red="0.3651253172588832" green="0.014026544356998296" blue="0.13271290448080827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="2o5-j4-glw"/>
-                                    <constraint firstItem="3fY-HQ-Iet" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8Kt-e8-NWA" secondAttribute="leading" constant="117.5" id="4mX-9a-EbZ"/>
+                                    <constraint firstItem="3fY-HQ-Iet" firstAttribute="centerX" secondItem="8Kt-e8-NWA" secondAttribute="centerX" id="5lQ-qY-Qut"/>
                                     <constraint firstAttribute="bottom" secondItem="3fY-HQ-Iet" secondAttribute="bottom" constant="15" id="ES6-Cz-g2f"/>
                                     <constraint firstItem="3fY-HQ-Iet" firstAttribute="top" secondItem="8Kt-e8-NWA" secondAttribute="top" constant="14" id="Tp7-qp-7Jk"/>
-                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="3fY-HQ-Iet" secondAttribute="trailing" constant="117.5" id="zvo-g7-gnQ"/>
                                 </constraints>
                             </view>
                         </subviews>
